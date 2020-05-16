@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     },
     playlist: {
         width: 185,
-        height: 300,
+        // height: 300,
         padding: 5,
     },
     playlistContent: {
@@ -103,6 +103,34 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     playlistContentDescriptionText: {
+        color: '#FFF',
+        fontWeight: 'bold',
+        fontSize: 16
+    },
+    // ARTISTS
+    artists: {
+        flexDirection: 'row',
+    },
+    artist: {
+        width: 170,
+        height: 200,
+        padding: 5,
+    },
+    artistContent: {
+        flex: 1,
+    },
+    artistContentImage: {
+        width: '100%',
+        height: 160,
+        borderRadius: 100,
+    },
+    artistContentDescription: {
+        width: '100%',
+        padding: 5,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    artistContentDescriptionText: {
         color: '#FFF',
         fontWeight: 'bold',
         fontSize: 16
