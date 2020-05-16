@@ -3,21 +3,26 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     content: {
         flex: 1,
-        paddingVertical: 15,
+        // paddingVertical: 15,
         paddingHorizontal: 15
     },
     linearGradient: {
         flex: 1,
     },
-    greeting: {
-        fontWeight: 'bold',
-        fontSize: 25,
-        color: '#FFF'
+    gear: {
+        marginTop: 10,
+        alignItems: 'flex-end'
     },
+    subTitle: {
+        fontWeight: 'bold',
+        fontSize: 30,
+        color: '#FFF',
+        marginBottom: 10
+    },
+    // CARDS
     cards: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-
     },
     card: {
         width: '50%',
@@ -33,18 +38,71 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     cardContentImage: {
-        width: '40%',
+        width: '35%',
         borderTopLeftRadius: 12,
         borderBottomLeftRadius: 12
     },
     cardContentDescription: {
-        width: '60%',
+        width: '65%',
         padding: 5,
         alignItems: 'center',
         justifyContent: 'center'
     },
     cardContentDescriptionText: {
-        overflow: 'hidden',
+        color: '#FFF',
+        fontWeight: 'bold',
+        fontSize: 16
+    },
+    // RECENTLYS
+    recentlys: {
+        flexDirection: 'row',
+    },
+    recently: {
+        width: 125,
+        height: 200,
+        padding: 5,
+    },
+    recentlyContent: {
+        flex: 1,
+    },
+    recentlyContentImage: {
+        width: '100%',
+        height: 110,
+    },
+    recentlyContentDescription: {
+        width: '100%',
+        padding: 5,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    recentlyContentDescriptionText: {
+        color: '#FFF',
+        fontWeight: 'bold',
+        fontSize: 16
+    },
+    // PLAYLISTS
+    playlists: {
+        flexDirection: 'row',
+    },
+    playlist: {
+        width: 185,
+        height: 300,
+        padding: 5,
+    },
+    playlistContent: {
+        flex: 1,
+    },
+    playlistContentImage: {
+        width: '100%',
+        height: 170,
+    },
+    playlistContentDescription: {
+        width: '100%',
+        padding: 5,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    playlistContentDescriptionText: {
         color: '#FFF',
         fontWeight: 'bold',
         fontSize: 16
