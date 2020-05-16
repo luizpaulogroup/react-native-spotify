@@ -20,10 +20,10 @@ export default function Home() {
 
     const recentlys = [
         { img: 'https://i.scdn.co/image/ab67616d0000b2738ddd20bf644f1d50adafad7b', description: 'All Around The World' },
-        { img: 'https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png', description: 'Liked Songs' },
-        { img: 'https://i.scdn.co/image/ab67706c0000da845f2575c6513aa8e264879e7d', description: 'Essa Gelada Eu vou beber' },
         { img: 'https://vintageculture.com/wp-content/uploads/2020/04/Slow-Down-VC-e-Slow-Motion-Remix.jpg', description: 'Slow Down (feat. Jhon)' },
         { img: 'https://i.pinimg.com/474x/18/a3/b2/18a3b25cf87f439a5c0bc0fa7ae0ca54.jpg', description: 'Marilia Mendonça' },
+        { img: 'https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png', description: 'Liked Songs' },
+        { img: 'https://i.scdn.co/image/ab67706c0000da845f2575c6513aa8e264879e7d', description: 'Essa Gelada Eu vou beber' },
         { img: 'https://i.scdn.co/image/ab67616d0000b273d77d08d4bb06171ce0fe2a0e', description: 'Jorge & Mateus' },
     ]
 
