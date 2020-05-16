@@ -14,7 +14,7 @@ import randomize from '../../functions/randomize';
 export default function Home() {
 
     const [tmpArtists] = useState(randomize(artists));
-    const [tmpCards] = useState(randomize(cards));
+    const [tmpCards] = useState(cards);
     const [tmpRecentlys] = useState(randomize(recentlys));
     const [tmpPlaylists] = useState(randomize(playlists));
 
