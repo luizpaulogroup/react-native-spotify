@@ -8,6 +8,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialIcons';
 import Home from '../screens/Home';
 import Search from '../screens/Search';
 import Library from '../screens/Library';
+import ProfileAuthor from '../screens/ProffileAuthor';
 
 const Stack = createStackNavigator();
 
@@ -17,6 +18,12 @@ function myStack() {
             <Stack.Screen
                 name="Home"
                 component={Home}
+                options={{
+                    header: () => null,
+                }} />
+            <Stack.Screen
+                name="ProfileAuthor"
+                component={ProfileAuthor}
                 options={{
                     header: () => null,
                 }} />
@@ -65,7 +72,7 @@ const Routes = () => (
                         title: "Library",
                         tabBarLabel: "Library",
                         tabBarIcon: ({ color }) => (
-                            <MaterialCommunityIcons color={color} name="book" size={26} />
+                            <MaterialCommunityIcons color={color} name="library-books" size={26} />
                         ),
                     }} />
             </Tab.Navigator>
