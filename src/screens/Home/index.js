@@ -7,7 +7,7 @@ import LinearGradient from 'react-native-linear-gradient';
 
 import styles from './styles';
 
-import { artists, cards, recentlys, playlists } from '../../Data';
+import { artists, cards, recentlys, playlists } from '../../Data/Home';
 
 import randomize from '../../functions/randomize';
 
@@ -24,7 +24,7 @@ export default function Home() {
                 colors={['#321A5B', '#191414']}
                 style={styles.linearGradient}>
                 <View style={styles.content}>
-                    <ScrollView showsVerticalScrollIndicator={false}>
+                    <ScrollView style={styles.ScrollView} showsVerticalScrollIndicator={false}>
                         <View style={styles.gear}><MaterialCommunityIcons color="#FFF" name="build" size={26} /></View>
                         <View><Text style={styles.subTitle}>Good evening</Text></View>
                         <View style={styles.cards}>

@@ -3,11 +3,12 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     content: {
         flex: 1,
-        // paddingVertical: 15,
-        paddingHorizontal: 15
     },
     linearGradient: {
         flex: 1,
+    },
+    ScrollView: {
+        paddingHorizontal: 15
     },
     gear: {
         marginTop: 10,
