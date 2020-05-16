@@ -47,7 +47,7 @@ export default function Home() {
                                         <View style={styles.recentlyContent}>
                                             <Image resizeMethod="resize" resizeMode="stretch" style={styles.recentlyContentImage} source={{ uri: recently.img }} />
                                             <View style={styles.recentlyContentDescription}>
-                                                <Text style={styles.recentlyContentDescriptionText}>{recently.description}</Text>
+                                                <Text style={styles.recentlyContentDescriptionText}>{recently.author}</Text>
                                             </View>
                                         </View>
                                     </View>
@@ -62,7 +62,7 @@ export default function Home() {
                                         <View style={styles.playlistContent}>
                                             <Image resizeMethod="resize" resizeMode="stretch" style={styles.playlistContentImage} source={{ uri: playlist.img }} />
                                             <View style={styles.playlistContentDescription}>
-                                                <Text style={styles.playlistContentDescriptionText}>{playlist.description}</Text>
+                                                <Text style={styles.playlistContentDescriptionText}>{playlist.author}</Text>
                                             </View>
                                         </View>
                                     </View>
