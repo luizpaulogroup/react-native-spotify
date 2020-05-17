@@ -1,6 +1,6 @@
 # Spotify
  
-- Cloning the Spotify interface.
+### Cloning the Spotify interface.
 
 - Random list of artists, playlists, recently played.
 
