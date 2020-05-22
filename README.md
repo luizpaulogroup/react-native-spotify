@@ -5,8 +5,8 @@
 <h1 align="center">Application Spotify</h1>
 
 <h1 align="center">
-    <img alt="Github logo" width="60px" height="50px" src="https://github.com/luizpaulogroup/react-native-github/blob/master/src/Gif/github.png">
-    <img alt="React logo" width="50px" height="50px" src="https://github.com/luizpaulogroup/react-native-github/blob/master/src/Gif/expo.png" />
+    <img alt="React logo" width="50px" height="50px" src="https://github.com/luizpaulogroup/react-native-spotify/blob/master/src/Gif/react.png" />
+    <img alt="React logo" width="50px" height="50px" src="https://github.com/luizpaulogroup/react-native-spotify/blob/master/src/Gif/spotify.png" />
     <br>
     Spotify React Native
 </h1>
