@@ -1,8 +1,4 @@
-# Spotify
- 
-### Cloning the Spotify interface.
-
-<h1 align="center">Application Spotify</h1>
+<h1 align="center">Cloning the Spotify interface</h1>
 
 <h1 align="center">
     <img alt="React logo" width="70px" height="50px" src="https://github.com/luizpaulogroup/react-native-spotify/blob/master/src/Gif/react.png" />
